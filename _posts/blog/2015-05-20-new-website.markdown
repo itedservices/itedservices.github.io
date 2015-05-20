@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "New Website"
-date: 2015-05-20 14:54:46
+description: "Welcome, after quite some time we have finally decided upon a tool to do our website and blog."
+date: 2015-05-20 14:54:46 +12:00
 author: Admin
 categories:
 - blog
