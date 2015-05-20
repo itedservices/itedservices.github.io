@@ -12,22 +12,22 @@ permalink: /contact/
             <h4>Just Get In Touch!</h4>
             <div class="hline"></div>
                 <p>{{ site.about }}</p>
-                <form role="form">
+                <form role="form" action="//formspree.io/hello@ited.co.nz" method="post">
                   <div class="form-group">
                     <label for="InputName1">Your Name</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1">
+                    <input type="text" name="name" class="form-control" id="InputName1">
                   </div>
                   <div class="form-group">
                     <label for="InputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1">
+                    <input type="email" name="email" class="form-control" id="InputEmail1">
                   </div>
                   <div class="form-group">
                     <label for="InputSubject1">Subject</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1">
+                    <input type="text" name="_subject" class="form-control" id="InputSubject1">
                   </div>
                   <div class="form-group">
                     <label for="message1">Message</label>
-                    <textarea class="form-control" id="message1" rows="3"></textarea>
+                    <textarea class="form-control" name="message" id="message1" rows="3"></textarea>
                   </div>
                   <button type="submit" class="btn btn-theme">Submit</button>
                 </form>
