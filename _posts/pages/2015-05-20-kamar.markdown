@@ -1,0 +1,72 @@
+---
+layout: page
+title:  "KAMAR"
+date:   2015-05-20 00:00:00 +12:00
+author: Admin
+img: portfolio_10.jpg
+thumb: thumb02.jpg
+carousel:
+- single01.jpg
+- single02.jpg
+- single03.jpg
+client: Wonder Corp.
+website: http://blacktie.co
+permalink: /pages/kamar
+---
+Let us take the hassle of installing, upgrading and maintenance of your school's portal away so that you can focus on more important things
+
+Our hosting platform provides a safe, secure way for schools to publish live information.
+
+Information that parents and students can view from KAMAR web portal include:
+
+- Daily Notices
+- Timetable
+- Details
+- Timetable
+- Subject Results
+- NCEA Summary
+- All Results
+- Groups
+- Reports
+- Awards
+- Attendance
+- Pastoral
+- Fees
+- Careers
+- Interviews
+- Course Selection
+
+For more information on the KAMAR Web Portal see
+http://www.kamar.co.nz/page/103506/Student-Web-Portal
+
+####KAMAR Web and SMS-LMS Interoperability
+
+KAMAR Web/myStudent is an excellent alternative to the SMS-LMS Interoperability developed by the MoE.Key points of difference include:
+
+No overnight batch export and upload required
+Can to be customised to look how you want it too (i.e your school website)
+Parent passwords are managed from KAMAR (so can be easily included in a report layout)
+PDF copies of reports can made available for parents and students
+School fees can be paid online
+
+####Themes
+
+The Parent Portal is easily customised to any design you would like. If you have your own theme that you have designed, you can use that; or if you prefer, we can take direction from you on the design and create one from scratch.
+
+####Pricing
+
+Our pricing structure is tailored to meet the needs of all schools. It covers all hosting (including report uploads), upgrades, maintenance, and email based support.
+
+Roll size/month
+0+ $100
+
+500+ $135
+
+1000+$170
+
+1500+$200
+
+2000+$250
+
+One off setup $350
+Customised theme $350

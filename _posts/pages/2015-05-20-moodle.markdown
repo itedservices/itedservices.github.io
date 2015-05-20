@@ -1,0 +1,52 @@
+---
+layout: page
+title:  "Moodle"
+date:   2015-05-20 00:00:00 +12:00
+author: Admin
+img: portfolio_10.jpg
+thumb: thumb02.jpg
+carousel:
+- single01.jpg
+- single02.jpg
+- single03.jpg
+client: Wonder Corp.
+website: http://blacktie.co
+permalink: /pages/moodle
+---
+####MOODLE HOSTING
+If its to do with Moodle we are involved, We have been using Moodle for over 15 years personally and know it well
+
+We offer the following services:
+
+- Managed Hosting
+- Theme customisation
+- Administration and Technical support
+- Teacher support and Professional Development
+- Moodle-KAMAR Integration
+- Google Apps integration
+- Mahara integration
+- SSO integration
+
+####Moodle - KAMAR
+
+The Moodle - KAMAR integration provides live integration between your schools KAMAR data, and the open-source Moodle Learning Management System (LMS). Its implementation is closely based on the KAMAR Parent Portal but for student use only (there is no parent access provided by Moodle-KAMAR).
+
+Information provided by the Moodle - KAMAR block includes:
+
+- Daily Notices
+- Timetable
+- Details
+- Timetable
+- Subject Results
+- NCEA Summary
+- All Results
+- Groups
+- Reports
+- Awards
+- Attendance
+- Pastoral
+- Fees
+- Careers
+- Interviews
+- Course Selection
+All that is required is that your students Moodle username match the username stored in KAMAR
