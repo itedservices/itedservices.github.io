@@ -89,7 +89,7 @@ clients:
     link: http://www.papamoacollege.school.nz
   - name: Katikati College
     img: kkc-bw.png
-	link: http://www.kkc.school.nz
+    link: http://www.kkc.school.nz
     
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
