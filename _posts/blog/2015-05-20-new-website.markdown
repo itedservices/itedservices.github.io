@@ -5,6 +5,7 @@ date: 2015-05-20 14:54:46
 author: Admin
 categories:
 - blog
+tags:
 - News
 img: post04.jpg
 thumb: thumb04.jpg
