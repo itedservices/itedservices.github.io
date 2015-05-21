@@ -7,6 +7,7 @@ description: "ITed Services is a education IT solution company based in Tauranga
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
 url: "http://www.ited.co.nz"
+future: true
 
 # Build settings
 markdown: kramdown
