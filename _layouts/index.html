@@ -1,9 +1,34 @@
 ---
 layout: default
+title: Home
 ---
-{% include header.html %}
+{% include sections/banner.html %}
+{% include sections/services.html %}
+{% include sections/clients.html %}
+{% include sections/testimonial.html %}
+    
+<div class="container mtb">
+    <div class="row">
+        <div class="col-md-4 col-lg-4">
+            <h4>About Us.</h4>
+            <p>{{ site.about }}</p>
+            <p><a href="{{ "/about/" | prepend: site.baseurl }}" class="btn btn-theme">Read more</a></p>
+        </div>
 
-  {{ content }}
+        <div class="col-md-4 col-lg-4">
+            <h4>From the Help Center</h4>
+            <div id="helpcenter" class="hline"></div>
+        </div>
 
-{% include testimonial.html %}
-{% include clients.html %}
+        <div class="col-md-4 col-lg-4">
+            <h4>Latest Posts</h4>
+            <div class="hline"></div>
+            {% for post in site.categories['blog'] limit:5 %} 
+                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
+            {% endfor %} 
+        </div>
+
+    </div><!--/row -->
+</div><!--/container -->
+
+{% include modals.html %}
