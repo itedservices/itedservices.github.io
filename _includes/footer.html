@@ -1,25 +1,25 @@
-<div id="footerwrap">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-4 col-md-4 col-lg-4 text-left">
-                <p>
-                    {{ site.email }}
-                </p>
-            </div>
-            <div class="col-sm-4 col-md-4 col-lg-4 text-center">
-                <p>
-                    {% for network in site.social %}
-                        <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-{{ network.title }}"></i></a>
-                    {% endfor %}
-                </p>
-            </div>
-            <div class="col-sm-4 col-md-4 col-lg-4 text-right">
-                <p>
-                    {% for line in site.address.first.lines %}
-                        {{ line }}
-                    {% endfor %}
-                </p>
-            </div>
-        </div><! --/row -->
-    </div><! --/container -->
-</div><! --/footerwrap -->
+    <footer id="footerwrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-md-4 col-lg-4 text-left">
+                    <p>
+                        {{ site.email }}
+                    </p>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4 text-center">
+                    <p>
+                        {% for network in site.social %}
+                            <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-{{ network.title }}"></i></a>
+                        {% endfor %}
+                    </p>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4 text-right">
+                    <p>
+                        {% for line in site.address.first.lines %}
+                            {{ line }}
+                        {% endfor %}
+                    </p>
+                </div>
+            </div><!--/row -->
+        </div><!--/container -->
+    </footer><!--/footerwrap -->
