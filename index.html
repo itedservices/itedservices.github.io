@@ -42,10 +42,7 @@ permalink: /
 
         <div class="col-md-4 col-lg-4">
             <h4>From the Help Center</h4>
-            <div class="hline"></div>
-            {% for post in site.categories['question'] %} 
-                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
-            {% endfor %}
+            <div id="helpcenter" class="hline"></div>
         </div>
 
         <div class="col-md-4 col-lg-4">
