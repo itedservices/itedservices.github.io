@@ -32,7 +32,7 @@ function getHelpcenterArticles () {
             
             // loop the articles and format the 5 latest
             $.each(data.articles, function(key, article){
-                article_html += '<p><a href=' + article.html_url + '>' + article.name + '</a></p>';
+                article_html += '<p><a target="_blank" href=' + article.html_url + '>' + article.name + '</a></p>';
                 return key < 4;
             });
         
