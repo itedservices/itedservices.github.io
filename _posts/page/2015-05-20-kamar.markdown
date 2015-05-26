@@ -11,7 +11,8 @@ carousel:
 - single03.jpg
 client: Wonder Corp.
 website: http://blacktie.co
-permalink: /pages/kamar
+categories:
+- page
 ---
 Let us take the hassle of installing, upgrading and maintenance of your school's portal away so that you can focus on more important things
 
