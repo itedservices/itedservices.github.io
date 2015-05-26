@@ -17,7 +17,6 @@ function getHelpcenterArticles () {
     
     // only load article where there is a #helpcenter element
     if (helpcenter.length){
-        console.log(helpcenter);
     
         var zendesk = new $.RestClient('https://ited.zendesk.com/api/v2/help_center/');
 
@@ -30,9 +29,13 @@ function getHelpcenterArticles () {
             
             var article_html = '';
             
+            // we can have random articles
+            shuffle(data.articles);
+            
             // loop the articles and format the 5 latest
-            $.each(data.articles, function(key, article){
+            $.each(data.articles, function(key, article){                
                 article_html += '<p><a target="_blank" href=' + article.html_url + '>' + article.name + '</a></p>';
+
                 return key < 4;
             });
         
@@ -40,6 +43,16 @@ function getHelpcenterArticles () {
             helpcenter.after(article_html);
         });
     }
+}
+
+function shuffle(array) {
+    for (var i = array.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+    }
+    return array;
 }
 
 
