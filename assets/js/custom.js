@@ -30,7 +30,7 @@ function getHelpcenterArticles () {
             var article_html = '';
             
             // we can have random articles
-            shuffle(data.articles);
+            // shuffle(data.articles);
             
             // loop the articles and format the 5 latest
             $.each(data.articles, function(key, article){                
