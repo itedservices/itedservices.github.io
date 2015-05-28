@@ -255,6 +255,71 @@ a:focus {
 	padding: 15px;
 }
 
+.service-modal-link {
+  color: #000000;
+}
+
+.service-modal-link:hover {
+  color: {{ site.colors.link }};
+}
+
+.service-modal .modal-content {
+    padding: 50px 0;
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    background-clip: border-box;
+    box-shadow: none;
+}
+
+.service-modal .modal-content h2 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.service-modal .modal-content img {
+    margin-bottom: 30px;
+}
+
+.service-modal .modal-content .item-details {
+    margin: 30px 0;
+}
+
+.service-modal .close-modal {
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.service-modal .close-modal:hover {
+    opacity: .3;
+}
+
+.service-modal .close-modal .lr {
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    background-color: {{ site.colors.secondary }};
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.service-modal .close-modal .lr .rl {
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    background-color: {{ site.colors.secondary }};
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
 /* Portfolio Wrap */
 #portfoliowrap {
 	padding-top: 40px;
