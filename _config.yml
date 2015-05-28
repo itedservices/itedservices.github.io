@@ -1,12 +1,11 @@
 ### GENERAL SETTINGS ###
 safe: true
 future: true
-include: ['_pages']
 
 # Site settings
 title: ITed Services
 tagline: "It's all about the learning"
-description: "ITed Services is a education IT solution company based in Tauranga, NZ. We are a talented and passionate team that is committed to helping your school get the best use out of your ICT."
+description: "ITed Services is a education IT solutions company based in Tauranga, NZ. We are a talented and passionate team that is committed to helping your school get the best use out of your ICT."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
 url: "http://www.ited.co.nz"
@@ -16,7 +15,7 @@ paginate_path: /blog/:num/
 
 # Build settings
 markdown: kramdown
-permalink: /:categories/:title.html
+permalink: pretty
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 
 colors:  #in hex code if not noted else
