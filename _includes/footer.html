@@ -1,17 +1,16 @@
+
     <footer id="footerwrap">
         <div class="container">
             <div class="row">
                 <div class="col-sm-4 col-md-4 col-lg-4 text-left">
                     <p>
-                        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+                        <a target="_blank" href="mailto:{{ site.email }}">{{ site.email }}</a>
                     </p>
                 </div>
                 <div class="col-sm-4 col-md-4 col-lg-4 text-center">
-                    <p>
-                        {% for network in site.social %}
-                            <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-{{ network.title }}"></i></a>
-                        {% endfor %}
-                    </p>
+                    <p>{% for network in site.social %}
+                        <a target="_blank" href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-{{ network.title }}"></i></a>
+                    {% endfor %}</p>
                 </div>
                 <div class="col-sm-4 col-md-4 col-lg-4 text-right">
                     <p>
