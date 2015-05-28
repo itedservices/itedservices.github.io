@@ -3,7 +3,7 @@
             <div class="row">
                 <div class="col-sm-4 col-md-4 col-lg-4 text-left">
                     <p>
-                        {{ site.email }}
+                        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
                     </p>
                 </div>
                 <div class="col-sm-4 col-md-4 col-lg-4 text-center">
@@ -15,9 +15,7 @@
                 </div>
                 <div class="col-sm-4 col-md-4 col-lg-4 text-right">
                     <p>
-                        {% for line in site.address.first.lines %}
-                            {{ line }}
-                        {% endfor %}
+                        {% for line in site.address.first.lines %} {{ line }} {% endfor %}
                     </p>
                 </div>
             </div><!--/row -->
