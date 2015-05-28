@@ -13,4 +13,4 @@ categories:
 - blog
 ---
 
-This term we have started using <a href="http://mrbs.sourceforge.net/">MRBS</a> for our bookings with some customisation this non standard moodle block has allowed us flexibility and extensibility in our booking for no additional cost. Simple to use and set up I can fully recommend this service.
+This term we have started using [MRBS](http://mrbs.sourceforge.net/) for our bookings with some customisation this non standard moodle block has allowed us flexibility and extensibility in our booking for no additional cost. Simple to use and set up I can fully recommend this service.
