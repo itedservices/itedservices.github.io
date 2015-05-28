@@ -1,6 +1,10 @@
 ### GENERAL SETTINGS ###
-safe: true
+# safe: true
 future: true
+
+gems:
+  - octopress-paginate
+  - jekyll-sitemap
 
 # Site settings
 title: ITed Services
@@ -10,8 +14,8 @@ analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
 url: "http://www.ited.co.nz"
 
-paginate: 5
-paginate_path: /blog/:num/
+# paginate: 5
+# paginate_path: /blog/:num/
 
 # Build settings
 markdown: kramdown
