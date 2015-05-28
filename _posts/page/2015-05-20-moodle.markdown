@@ -1,18 +1,25 @@
 ---
 layout: page
+author: Admin
 title:  "Moodle"
 date:   2015-05-20 18:00:00 +12:00
-author: Admin
+
+categories:
+- page
+- service
+
+sid: 2
+icon: fa-graduation-cap
+modal: "Create a modern, blended learning environment for your students that is available 24/7. Let your students learn in their own time."
+
 img: portfolio_10.jpg
 thumb: thumb02.jpg
+
 carousel:
 - single01.jpg
 - single02.jpg
 - single03.jpg
-client: Wonder Corp.
-website: http://blacktie.co
-categories:
-- page
+
 ---
 ####MOODLE HOSTING
 If its to do with Moodle we are involved, We have been using Moodle for over 15 years personally and know it well

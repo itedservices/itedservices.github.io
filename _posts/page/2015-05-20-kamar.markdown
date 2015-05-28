@@ -1,18 +1,25 @@
 ---
 layout: page
-title:  "KAMAR"
-date:   2015-05-20 18:00:00 +12:00
 author: Admin
+title:  "KAMAR Portals"
+date:   2015-05-20 18:00:00 +12:00
+
+categories:
+- page
+- service
+
+sid: 3
+icon: fa-bell-o
+modal: "Let us take the hassle of installing, upgrading and maintenance of your school's portal away so that you can focus on more important things, like Moodle."
+
 img: portfolio_10.jpg
 thumb: thumb02.jpg
+
 carousel:
 - single01.jpg
 - single02.jpg
 - single03.jpg
-client: Wonder Corp.
-website: http://blacktie.co
-categories:
-- page
+
 ---
 Let us take the hassle of installing, upgrading and maintenance of your school's portal away so that you can focus on more important things
 
