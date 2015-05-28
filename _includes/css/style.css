@@ -62,13 +62,13 @@ ol {
 a { 
     color:{{ site.colors.link }};
     padding: 0;
-	margin: 0;
-	text-decoration: none; 
-	-webkit-transition: background-color .4s linear, color .4s linear;
-	-moz-transition: background-color .4s linear, color .4s linear;
-	-o-transition: background-color .4s linear, color .4s linear;
-	-ms-transition: background-color .4s linear, color .4s linear;
-	transition: background-color .4s linear, color .4s linear;
+    margin: 0;
+    text-decoration: none; 
+    -webkit-transition: background-color .4s linear, color .4s linear;
+    -moz-transition: background-color .4s linear, color .4s linear;
+    -o-transition: background-color .4s linear, color .4s linear;
+    -ms-transition: background-color .4s linear, color .4s linear;
+    transition: background-color .4s linear, color .4s linear;
 }
 a:hover,
 a:focus {
@@ -217,7 +217,7 @@ a:focus {
 #headerwrap {
 	background-color: {{ site.colors.primary }};
 	min-height: 0px;
-	padding-top: 100px;
+	padding-top: 140px;
 	padding-bottom: 50px;
 	text-align: center;
 }
@@ -250,8 +250,7 @@ a:focus {
 }
 
 #services i {
-	color: {{ site.colors.primary }};
-	font-size: 60px;
+	font-size: 4em;
 	padding: 15px;
 }
 
@@ -440,15 +439,19 @@ a:focus {
 	color: {{ site.colors.footer_heading }};
 }
 
+#footerwrap a {
+  color: {{ site.colors.footer_content }};
+}
+
+#footerwrap a:hover {
+	color: {{ site.colors.link }}
+}
+
 #footerwrap i {
 	font-size: 30px;
-	color: {{ site.colors.footer_content }};
 	padding-right: 25px;
 }
 
-#footerwrap i:hover {
-	color: {{ site.colors.primary }}
-}
 
 /*	################################################################
 	PAGE CONFIGURATIONS
