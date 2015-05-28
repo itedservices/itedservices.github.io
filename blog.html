@@ -1,0 +1,54 @@
+---
+layout: blog
+title: Blog
+paginate: 
+  category: blog
+  permalink:    /page/:num/
+  limit: false
+  per_page: 5
+
+---
+
+    <div class="container mtb">
+        <div class="row">
+            <!-- BLOG POSTS LIST -->
+            <div class="col-lg-8">
+                {% for post in paginator.posts %}
+                    <!-- Blog Post -->
+                    {% if post.img %}
+                    <a href="{{ post.url | prepend: site.baseurl }}">
+                        <img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ post.img }}">
+                    </a>
+                    {% endif %}
+                    <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
+                    <p><csmall>{{ post.date | date: "%b %-d, %Y" }} | By: {{ post.author }}</csmall></p>
+                    {{ post.excerpt }}
+                    
+                    {% capture content_words %} {{ post.content | number_of_words }} {% endcapture %} 
+                    {% capture excerpt_words %} {{ post.excerpt | number_of_words }} {% endcapture %}
+                    
+                    {% if excerpt_words != content_words %}
+                    <p><a href="{{ post.url }}#read-more">Read More</a></p>
+                    {% endif %}
+                    <div class="hline"></div>
+
+                    <div class="spacing"></div>
+                {% endfor %}
+                <nav>
+                  <ul class="pager">
+                    {% if paginator.next_page %}
+                    <li class="previous"><a rel="next" href="{{ paginator.next_page_path }}"><span aria-hidden="true">&larr;</span> Older</a></li>
+                    {% endif %}
+                    {% if paginator.previous_page %}
+                    <li class="next"><a rel="prev" href="{{ paginator.previous_page_path }}">Newer <span aria-hidden="true">&rarr;</span></a></li>
+                    {% endif %}
+                  </ul>
+                </nav>
+            </div><!--/col-lg-8 -->
+
+            {% include sidebar.html %}
+
+        </div><!--/row -->
+    </div><!--/container -->
+
+
