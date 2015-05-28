@@ -1,7 +1,8 @@
     <!-- Service Modals -->
+    {% assign services = site.categories.service | sort: 'sid' %}
     <section>
-        {% for service in site.categories['page'] %}
-        <div class="service-modal modal fade" id="service-{{ service.title | downcase }}" tabindex="-1" role="dialog" aria-hidden="true">
+        {% for service in services %}
+        <div class="service-modal modal fade" id="service-{{ service.title | slugify }}" tabindex="-1" role="dialog" aria-hidden="true" aria-labelledby="{{ service.title | downcase }}">
             <div class="modal-content">
                 <div class="close-modal" data-dismiss="modal">
                     <div class="lr">
@@ -13,11 +14,10 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <h2>{{ service.title }}</h2>
+                                <h2><i class="fa {{ service.icon }}"></i> {{ service.title }}</h2>
                                 <hr class="star-primary">
-                                <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                                <img src="img/services/{{ post.img }}" class="img-responsive img-centered" alt="{{ service.alt }}">
                                 <p>{{ service.content }}</p>
-                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                             </div>
                         </div>
                     </div>

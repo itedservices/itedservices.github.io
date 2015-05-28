@@ -1,24 +1,17 @@
+    {% assign services = site.categories.service | sort: 'sid' %}
     <section id="services">
         <div class="container">
             <div class="row centered">
+                {% for service in services %}
                 <div class="col-md-4 col-lg-4">
-                    <i class="fa fa-server"></i>
-                    <h4>ICT Services</h4>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                    <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
+                    <a data-toggle="modal" href="#service-{{service.title | slugify }}" class="service-modal-link">
+                        <i class="fa {{ service.icon }}"></i>
+                        <h4>{{ service.title }}</h4>
+                        <p>{{ service.modal }}</p>
+                    </a>
+                    <p><br/><a role="button" data-toggle="modal" href="#service-{{service.title | slugify }}" class="btn btn-theme">More Info</a></p>
                 </div>
-                <div class="col-md-4 col-lg-4">
-                    <i class="icon-graduation-cap"></i>
-                    <h4>Moodle</h4>
-                    <p>If its to do with Moodle we are involved, We have been using Moodle for over 10 years, so we know it well.</p>
-                    <p><br/><a href="/pages/moodle" class="btn btn-theme">More Info</a></p>
-                </div>
-                <div class="col-md-4 col-lg-4">
-                    <i class="fa fa-bell-o"></i>
-                    <h4>KAMAR Portals</h4>
-                    <p>Let us take the hassle of installing, upgrading and maintenance of your school's portal away so that you can focus on more important things</p>
-                    <p><br/><a data-toggle="modal" href="#service-kamar" class="btn btn-theme">More Info</a></p>
-                </div>
+                {% endfor %}
             </div>
         </div><!--/container -->
     </section><!--/service -->
