@@ -5,6 +5,9 @@ future: true
 gems:
   - octopress-paginate
   - jekyll-sitemap
+  - jekyll-assets
+  - jekyll-assets/bootstrap
+  - jekyll-assets/font-awesome
 
 # Site settings
 title: ITed Services
@@ -18,9 +21,15 @@ url: "http://www.ited.co.nz"
 # paginate_path: /blog/:num/
 
 # Build settings
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'Rakefile']
 markdown: kramdown
 permalink: pretty
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
+
+assets:
+  debug: false
+  js_compressor:  uglifier
+  css_compressor: sass
 
 colors:  #in hex code if not noted else
   primary: "#b22222" #F70031
