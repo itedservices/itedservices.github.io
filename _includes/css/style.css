@@ -6,23 +6,23 @@
 	Project Name: SOLID - Bootstrap 3 Theme
 	Version: 1.0
 	URL: http://alvarez.is
-	
-################################################################# */ 
+
+################################################################# */
 @import url("prettyPhoto.css") screen;
 @import url("hoverex-all.css") screen;
 
 /*	################################################################
 	1. GENERAL STRUCTURES
 ################################################################# */
-	* { 
+	* {
 		margin: 0;
 		padding: 0px;
-	} 
+	}
 
-body { 
-	background: #ffffff; 
-	margin: 0; 
-	height: 100%; 
+body {
+	background: #ffffff;
+	margin: 0;
+	height: 100%;
 	color: {{ site.colors.secondary }};
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
@@ -33,15 +33,15 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
 }
 
-p { 
-	padding: 0; 
-	margin-bottom: 12px; 
+p {
+	padding: 0;
+	margin-bottom: 12px;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
-	font-size: 14px; 
+	font-size: 14px;
 	line-height: 24px;
-	color: {{ site.colors.secondary }}; 
-	margin-top: 10px; 
+	color: {{ site.colors.secondary }};
+	margin-top: 10px;
 }
 
 img {
@@ -59,11 +59,11 @@ ol {
     padding-left: 26px;
 }
 
-a { 
+a {
     color:{{ site.colors.link }};
     padding: 0;
     margin: 0;
-    text-decoration: none; 
+    text-decoration: none;
     -webkit-transition: background-color .4s linear, color .4s linear;
     -moz-transition: background-color .4s linear, color .4s linear;
     -o-transition: background-color .4s linear, color .4s linear;
@@ -218,7 +218,6 @@ a:focus {
 	background-color: {{ site.colors.primary }};
 	min-height: 0px;
 	padding-top: 140px;
-	padding-bottom: 50px;
 	text-align: center;
 }
 
@@ -242,11 +241,18 @@ a:focus {
 	margin: 0 auto;
 }
 
+.header-desc p {
+	color: white;
+	font-weight: 400;
+	font-family: 'Raleway', sans-serif;
+}
+
 /* Services Wrap */
 #services {
 	margin-top: 0px;
 	margin-bottom: 0px;
-  padding-top: 40px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 #services i {
@@ -386,14 +392,14 @@ a:focus {
   text-align:center;
   background-attachment: relative;
   background-position: center center;
-  min-height: 450px;
+  min-height: 400px;
   width: 100%;
-  
+
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
   background-size: 100%;
-  
+
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -523,7 +529,7 @@ csmall {
 	background-position: center center;
 	min-height: 400px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -536,27 +542,27 @@ csmall {
 }
 
 /* Blog Page */
-.popular-posts { 
+.popular-posts {
 	margin: 0px;
 	padding-left: 0px;
 	}
-	
+
 .popular-posts li {
-	list-style: none; 
-	margin-bottom: 20px; 
+	list-style: none;
+	margin-bottom: 20px;
 	min-height: 70px;
 }
-.popular-posts li a, 
+.popular-posts li a,
 .popular-posts li a:hover {
-	color:#2f2f2f; 
+	color:#2f2f2f;
 	text-decoration: none;
 	}
-	
+
 .popular-posts li img {
-	float: left; 
+	float: left;
 	margin-right: 20px;
 	}
-	
+
 .popular-posts li em {
 	font-family: 'Lato', sans-serif;
 	font-size: 12px;
@@ -566,7 +572,7 @@ csmall {
 .popular-posts p {
 	line-height: normal;
 	margin-bottom: auto;
-}	
+}
 
 .share i {
 	padding-right: 15px;
@@ -574,8 +580,8 @@ csmall {
 }
 
 a.anchor{
-    display: block; 
-    position: relative; 
-    top: -80px; 
+    display: block;
+    position: relative;
+    top: -80px;
     visibility: hidden;
 }
