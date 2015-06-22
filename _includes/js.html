@@ -12,3 +12,7 @@
 
     </script>
     {% endif %}
+
+    {% if page.url == '/' %}
+    <script>$(window).load(getHelpcenterArticles());</script>
+    {% endif %}
