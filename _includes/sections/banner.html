@@ -1,12 +1,12 @@
     <header id="headerwrap">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 himg">
+                <div class="col-lg-10 col-lg-offset-1 himg">
                     <img src="{{ "/assets/img/ITedLogo_vector_white.png" | prepend: site.baseurl }}" width="200" class="img-responsive">
                 </div>
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h1>{{site.tagline}}</h1>
-                    <h5>{{site.description}}</h5>
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h1>{{ site.tagline }}</h1>
+                    <span class="header-desc">{{ site.description | markdownify }}</span>
                 </div>
             </div><!-- /row -->
         </div> <!-- /container -->
