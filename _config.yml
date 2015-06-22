@@ -24,6 +24,7 @@ url: "http://www.ited.co.nz"
 # paginate_path: /blog/:num/
 
 # Build settings
+timezone: 'Pacific/Auckland'
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'Rakefile']
 markdown: kramdown
 permalink: pretty
