@@ -42,8 +42,8 @@ colors:  #in hex code if not noted else
   link_hover: "#000000"
   footer_heading: "#ffffff"
   footer_content: "#ffffff" #bfc9d3
-  
-  
+
+
 ### CONTACT SETTINGS ###
 
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
@@ -54,10 +54,10 @@ social:
     url: https://www.facebook.com/itedservices
   - title: twitter
     url: https://www.twitter.com/itedservices
-    
+
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
-  - lines: 
+  - lines:
     - 15 Minden Road,
     - RD 6,
     - Te Puna, Tauranga
@@ -66,7 +66,7 @@ tel: +64 27 478 6528
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
-    
+
 # Members information. Shown on About page.
 members:
   - name: Kelvin Maine
@@ -74,8 +74,8 @@ members:
     text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
     img: team01.jpg
     social:
-      - title: envelope #use for email address
-        url: mailto:kelvin@ited.co.nz
+    #   - title: envelope #use for email address
+    #     url: mailto:kelvin@ited.co.nz
       - title: twitter
         url: http://twitter.com/kbjmaine
   - name: Kees Fransen
@@ -83,8 +83,8 @@ members:
     text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
     img: team02.jpg
     social:
-      - title: envelope #use for email address
-        url: mailto:kees@ited.co.nz
+    #   - title: envelope #use for email address
+    #     url: mailto:kees@ited.co.nz
       - title: twitter
         url: http://twitter.com/keesfransen
   - name: Richard van Dijk
@@ -92,11 +92,11 @@ members:
     text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
     img: team03.jpg
     social:
-      - title: envelope #use for email address
-        url: mailto:richard@ited.co.nz
+    #   - title: envelope #use for email address
+    #     url: mailto:richard@ited.co.nz
       - title: twitter
         url: http://twitter.com/rbvandijk
-    
+
 # Clients information. Shown on Home and About pages.
 clients:
   - name: Mount Maunganui College
