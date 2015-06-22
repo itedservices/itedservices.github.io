@@ -12,4 +12,4 @@ categories:
 - blog
 - news
 ---
-**Welcome**, after quite some time we have finally decided upon a tool to do our website and blog. Here we will be able to share news and tips for the use of Moodle as well as new tools in the tech ed space.
+**Welcome**, after quite some time we have finally decided upon a tool to build our website and blog. Here we will be able to share news and tips for the use of Moodle as well as new tools in the #education space.
