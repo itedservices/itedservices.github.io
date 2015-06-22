@@ -16,3 +16,28 @@
     {% if page.url == '/' %}
     <script>$(window).load(getHelpcenterArticles());</script>
     {% endif %}
+
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "url": "https://www.ited.co.nz",
+            "logo": "https://www.ited.com/assets/img/ITedLogo_vector_black.png",
+            "contactPoint" : [
+                { "@type" : "ContactPoint",
+                "telephone" : "+64 27 478 6528",
+                "contactType" : "sales"
+                }
+            ],
+            "sameAs" : [ "http://www.facebook.com/itedservices",
+            "http://www.twitter.com/itedservices"
+            ]
+        },
+        {
+            "@context" : "http://schema.org",
+            "@type" : "WebSite",
+            "name" : "ITed Services",
+            "alternateName" : "ITed",
+            "url" : "https://www.ited.co.nz"
+}
+    </script>

@@ -3,11 +3,11 @@
         <div class="container">
             <div class="row centered">
                 {% for service in services %}
-                <div class="col-sm-4 col-md-4 col-lg-4">
+                <div itemscope itemtype="http://schema.org/Product" class="col-sm-4 col-md-4 col-lg-4">
 
                         <i class="fa {{ service.icon }}"></i>
-                        <h4>{{ service.title }}</h4>
-                        <p>{{ service.modal }}</p>
+                        <h4 itemprop="name">{{ service.title }}</h4>
+                        <p itemprop="description">{{ service.modal }}</p>
 
                 </div>
                 {% endfor %}
