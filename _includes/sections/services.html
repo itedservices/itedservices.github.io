@@ -3,13 +3,12 @@
         <div class="container">
             <div class="row centered">
                 {% for service in services %}
-                <div class="col-md-4 col-lg-4">
-                    <a data-toggle="modal" href="#service-{{service.title | slugify }}" class="service-modal-link">
+                <div class="col-sm-4 col-md-4 col-lg-4">
+
                         <i class="fa {{ service.icon }}"></i>
                         <h4>{{ service.title }}</h4>
                         <p>{{ service.modal }}</p>
-                    </a>
-                    <p><br/><a role="button" data-toggle="modal" href="#service-{{service.title | slugify }}" class="btn btn-theme">More Info</a></p>
+
                 </div>
                 {% endfor %}
             </div>
