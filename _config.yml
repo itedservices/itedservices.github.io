@@ -12,7 +12,10 @@ gems:
 # Site settings
 title: ITed Services
 tagline: "It's all about the learning"
-description: "ITed Services is a education IT solutions company based in Tauranga, NZ. We are a talented and passionate team that is committed to helping your school get the best use out of your ICT."
+description: |
+    ITed is a team of talented and passionate people who are committed to helping your school get the best use out of ICT.
+
+    We believe in building relationships with our schools because when we have an understanding of a vision, we can help to clarify and identify the challenges and then implement the steps that make it into something tangible.
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
 url: "http://www.ited.co.nz"
@@ -108,11 +111,11 @@ clients:
   - name: Katikati College
     img: kkc-bw.png
     link: http://www.kkc.school.nz
-    
-# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "We believe in building relationships with our schools because if we have an understanding of what your vision is we can help to clarify, identify the challenges and the steps to take and refine it into something tangible."
 
-# Testimonial content. Shown on Home and About page. 
+# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
+about: "ITed Services is a education IT solution company based in Tauranga. We are a team of talented and passionate people who are committed to helping your school get the best use out of ICT."
+
+# Testimonial content. Shown on Home and About page.
 testimonial:
     message: "Thanks again for your support. I will test the qtypes-formulas question later today. As said before, we've been waiting for four years to get action on this add-inn so you get hero status."
     author: Ken Ben
