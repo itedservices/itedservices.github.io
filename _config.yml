@@ -16,7 +16,7 @@ description: |
     ITed is a team of talented and passionate people who are committed to helping your school get the best use out of ICT.
 
     We believe in building relationships with our schools because when we have an understanding of a vision, we can help to clarify and identify the challenges and then implement the steps that make it into something tangible.
-analytics: #Google analytics code in the format XX-nnnnnnnn-n
+analytics: UA-25819796-2 #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
 url: "http://www.ited.co.nz"
 
