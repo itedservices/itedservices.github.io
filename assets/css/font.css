@@ -1,0 +1,82 @@
+::-moz-selection { background: #b22222; color: #fff; text-shadow: none; }
+::selection { background: #b22222; color: #fff; text-shadow: none; }
+html { overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; margin:0; padding:0; border:0; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; }
+blockquote, q { quotes: "" ""; }
+a img { border: none; }
+:focus { outline: 0; }
+
+body, 
+textarea {
+	color: #333;
+	background: #fcfcfc;
+	font: 12px "Lucida Grande","Lucida Sans Unicode","Tahoma",sans-serif;
+    line-height: normal;
+}
+body {
+	margin: 0; padding: 0;
+	background: #E0E0E0;
+}
+
+a {
+	color: #221166;
+	text-decoration: none;
+}
+blockqoute, p {
+	display: block;
+	margin-bottom: 20px;
+	}
+b, strong {
+	text-shadow: 0px 1px 1px #fff;
+	font-weight: bold;
+	}
+a:link, a:visited {
+	color: #b22222;
+	font-weight: bold;
+/*  text-shadow: 0px 1px 1px #fff;*/
+	text-decoration: none;
+	outline: none;
+	}
+small {
+	display: block;
+	line-height: 1.4em;
+	}	
+a:hover, a:active {
+	color: #ed1c24;
+	}
+a img,
+object {
+	outline: none;
+	border: none;
+}
+
+img { 
+	display: block;
+	-ms-interpolation-mode: bicubic;
+	border: 0;
+}
+
+h1 {
+	font-style: italic;
+}
+
+h2 {
+}
+
+h3 {
+}
+
+h4 {
+}
+
+h5 {
+}
+
+h6 {
+}
+
+
+@media print {
+	p, h2, h3 { orphans: 3; widows: 3; }
+	img { max-width: 100% !important; }
+}
