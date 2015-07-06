@@ -2,12 +2,28 @@
 layout: default
 ---
 {% include wrap.html %}
-
     <div class="container mtb">
         <div class="row">
             <!-- SINGLE POST -->
             <div class="col-lg-8">
                 <!-- Blog Post  -->
+                {% if page.description %}{% assign meta_desc = page.description %}{% else %}{% assign meta_desc = page.excerpt %}{% endif %}
+                <script type="application/ld+json">
+                        {
+                            "@context": "http://schema.org",
+                            "@type": "BlogPosting",
+                            "author": {
+                                "@type": "Person",
+                                "name": "{{ page.author }}",
+                                "sameAs": null,
+                                "description": null
+                            },
+                            "headline": "{{ page.title }}",
+                            "description": "{{ meta_desc }}",
+                            "datePublished": "{{ page.date }}",
+                            "url": "{{ page.url | prepend: site.url }}"
+                        }
+                </script>
                 {% if page.img %}
                 <p><img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ page.img }}"></p>
                 {% endif %}

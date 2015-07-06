@@ -3,9 +3,9 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        {% if page.description %}{% assign meta_desc = page.description %}{% else if page.excerpt %}{% assign meta_desc = page.excerpt | strip_html | strip_newlines %}{% else %}{% assign meta_desc = site.description %}{% endif %}
-        <meta name="description" content="{{ meta_desc | truncatewords: 150}}">
-        <meta name="author" content="{{ page.author }}">
+        {% if page.description %}{% assign meta_desc = page.description %}{% else %}{% assign meta_desc = site.description %}{% endif %}
+        {% if page.author %}<meta name="author" content="{{ page.author }}">{% endif %}
+        <meta name="description" content="{{ meta_desc | strip_html | strip_newlines | truncatewords: 150}}">
         <meta name="copyright" content="Copyright (c) {{site.title}} All Rights Reserved." />
         <link rel="shortcut icon" href="{{ "/assets/ico/favicon.ico" | prepend: site.baseurl }}">
         <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
