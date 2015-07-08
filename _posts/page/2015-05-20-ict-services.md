@@ -20,7 +20,7 @@ carousel:
 - single02.jpg
 - single03.jpg
 
-permalink: /pages/services/ict-services/
+permalink: /services/ict-services/
 
 ---
 
