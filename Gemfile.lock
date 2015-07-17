@@ -174,3 +174,6 @@ DEPENDENCIES
   json
   octopress-paginate
   uglifier
+
+BUNDLED WITH
+   1.10.2
