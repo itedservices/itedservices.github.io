@@ -6,8 +6,8 @@ gems:
   - octopress-paginate
   - jekyll-sitemap
   - jekyll-assets
-  - jekyll-assets/bootstrap
-  - jekyll-assets/font-awesome
+  - bootstrap-sass
+  - font-awesome-sass
 
 # Site settings
 title: ITed Services
