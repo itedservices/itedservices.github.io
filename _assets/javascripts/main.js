@@ -55,4 +55,32 @@ function shuffle(array) {
     return array;
 }
 
+function contactForm() {
+    
+    var form = $("#contactform");
+    // Catch the contact form submission
+    form.submit(function(event) {
+        
+        var msgdata = $(this).serialize();
+        $.ajax({
+            type: "POST",
+            url: "https://ited-site.herokuapp.com/user/f3e1e41f-0a86-4f20-9d73-9daaa32f30b6",
+            data: msgdata,
+            beforeSend: function() {
+                console.log("sending msg");
+                // console.log(msgdata);
+                $('#submit').button('loading').prepend('<i class="fa fa-spinner fa-spin"></i> ');
+            }
+        }).success(function(response) {
+            console.log("msg sent");
+            form.fadeOut().before('<div class="alert alert-success" role="alert"><p>Your message has been sent.</p><p>Thanks for contacting us, we\'ll be in touch soon</div>');
+        }).fail(function(response) {
+            console.log('error sending msg');
+            form.after('<div class="alert alert-danger" role="alert"><p>Sorry,there was a problem sending your message. Please try emailing us directly</p></div>');
+            $('#submit').button('reset');
+        });
+        return false;
+    });
+}
+
 

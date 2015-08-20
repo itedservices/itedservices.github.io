@@ -14,9 +14,13 @@
     {% endif %}
 
     {% if page.url == '/' %}
-    <script>$(window).load(getHelpcenterArticles());</script>
+    <script>$(document).ready(getHelpcenterArticles());</script>
     {% endif %}
-
+    
+    {% if page.url == '/contact/' %}
+    <script>$(document).ready(contactForm());</script>
+    {% endif %}
+    
     <script type="application/ld+json">
         {
             "@context": "http://schema.org",
