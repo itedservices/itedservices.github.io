@@ -204,6 +204,7 @@ a:focus {
 
 .hline {
 	border-bottom: 2px solid {{ site.colors.secondary }};
+	margin-bottom: 10px;
 }
 
 .hline-w {
@@ -439,6 +440,7 @@ a:focus {
 
 #footerwrap p {
 	color: {{ site.colors.footer_content }};
+	margin-top: 10px;
 }
 
 #footerwrap h4 {
