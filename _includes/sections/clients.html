@@ -1,12 +1,14 @@
     <section class="hidden-xs" id="cwrap">
         <div class="container">
-            <div class="row centered">
-                <h3>OUR CLIENTS</h3>
+            <div class="row">
+                <h3 class="text-center">SOME OF OUR CLIENTS</h3>
                 {% for client in site.clients %}
-                    <div class="col-sm-3 col-md-3 col-lg-3">
-                        <a href="{{ client.link }}" target="_blank">
-                            <img src="{{ "/assets/img/clients/" | prepend: site.baseurl }}{{ client.img }}" class="img-responsive">
-                        </a>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="client">
+                            <a href="{{ client.link }}" target="_blank">
+                                <img class="img-responsive" alt="{{ client.name }}" src="{{ "/assets/img/clients/" | prepend: site.baseurl }}{{ client.img }}">
+                            </a>
+                        </div>
                     </div>
                 {% endfor %}
             </div><!--/row -->

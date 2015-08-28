@@ -112,6 +112,18 @@ clients:
   - name: Katikati College
     img: kkc-bw.png
     link: http://www.kkc.school.nz
+  - name: Epsom Girl's Grammar School
+    img: eggs-bw.png
+    link: http://elearn.eggs.school.nz/
+  - name: Palmerston North Boy's High School
+    img: pnbhs-bw.png
+    link: http://stratus.pnbhs.school.nz/
+  - name: Papanui High School
+    img: papanui-bw.png
+    link: http://papnet.papanui.school.nz/
+  - name: Westlake Boy's High School
+    img: wbhs-bw.png
+    link: http://ilearn.westlake.school.nz/
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "ITed Services is a education IT solution company based in Tauranga. We are a team of talented and passionate people who are committed to helping your school get the best use out of ICT."
