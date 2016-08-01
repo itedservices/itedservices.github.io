@@ -16,7 +16,7 @@
 ################################################################# */
 	* {
 		margin: 0;
-		padding: 0px;
+		padding: 0;
 	}
 
 body {
@@ -96,7 +96,7 @@ a:focus {
 .navbar {
 	min-height: 70px;
 	padding-top: 10px;
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 
 .navbar-brand {
@@ -175,7 +175,6 @@ a:focus {
 	padding-left: 2.25rem;
 	font-size: 1.55rem;
 	cursor: pointer;
-	font-weight: normal;
 	line-height: normal;
 	margin: 0 0 1.25rem;
 	text-decoration: none;
@@ -216,7 +215,7 @@ a:focus {
 
 #headerwrap {
 	background-color: {{ site.colors.primary }};
-	min-height: 0px;
+	min-height: 0;
 	padding-top: 140px;
 	text-align: center;
 }
@@ -249,8 +248,8 @@ a:focus {
 
 /* Services Wrap */
 #services {
-	margin-top: 0px;
-	margin-bottom: 0px;
+	margin-top: 0;
+	margin-bottom: 0;
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
@@ -345,7 +344,7 @@ a:focus {
 
 
 .portfolio-item .title:before {border-radius:0; display:none}
-.portfolio-item p {margin:0px 0 30px;}
+.portfolio-item p {margin:0 0 30px;}
 .portfolio-item h3 {margin:-10px 0 10px; font-size:16px; text-transform:uppercase;}
 
 
@@ -387,7 +386,7 @@ a:focus {
 #twrap {
   background: url(../img/t-back.jpg) no-repeat center top;
   position: relative;
-  margin-top: 0px;
+  margin-top: 0;
   padding-top:60px;
   text-align:center;
   background-attachment: relative;
@@ -421,7 +420,7 @@ a:focus {
 /* clients logo */
 #cwrap {
 	background: #f7f7f7;
-	margin-top: 0px;
+	margin-top: 0;
 	padding-top: 80px;
 	padding-bottom: 20px;
 }
@@ -478,7 +477,8 @@ a:focus {
 	padding-bottom: 25px;
 }
 
-#blue h3, p {
+#blue h3,
+#blue p {
 	color: white;
 }
 
@@ -498,7 +498,7 @@ a:focus {
   margin: 1px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #ccc \9;
+  background-color: #ccc ;
   background-color: rgba(0, 0, 0, 0);
   border: 1px solid #666;
   border-radius: 10px;
@@ -528,7 +528,7 @@ csmall {
 #contactwrap {
 	background: url(../img/contact.jpg) no-repeat center top;
 	margin-top: -60px;
-	padding-top:0px;
+	padding-top:0;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
@@ -548,8 +548,8 @@ csmall {
 
 /* Blog Page */
 .popular-posts {
-	margin: 0px;
-	padding-left: 0px;
+	margin: 0;
+	padding-left: 0;
 	}
 
 .popular-posts li {
