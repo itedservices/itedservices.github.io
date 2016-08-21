@@ -10,41 +10,23 @@ permalink: /contact/
             <div class="col-lg-8">
                 <h4>Get In Touch!</h4>
                 <div class="hline"></div>
-                    <form id="contactform" role="form" action="#" method="post">
-                      <p>Send us a message using the form below or use the email address on the right. We'd love to hear from you!</p>
-                      <div class="form-group">
-                        <label for="InputName1">Your Name</label>
-                        <input type="text" name="name" class="form-control" required="required" id="InputName1">
-                      </div>
-                      <div class="form-group">
-                        <label for="InputEmail1">Email address</label>
-                        <input type="email" name="email" class="form-control" required="required" id="InputEmail1">
-                      </div>
-                      <div class="form-group">
-                        <label for="InputSubject1">Subject</label>
-                        <input type="text" name="subject" class="form-control" required="required" id="InputSubject1">
-                      </div>
-                      <div class="form-group">
-                        <label for="message1">Message</label>
-                        <textarea name="message" required="required" class="form-control" id="message1" rows="3"></textarea>
-                        <input type="text" name="gotcha" style="display:none">
-                      </div>
-                      <div class="form-group">
-                        <button type="submit" class="btn btn-theme" data-loading-text="sending message!" id="submit">Submit</button>
-                      </div>
-                    </form>
-            </div><!--/col-lg-8 -->
-
-            <div class="col-lg-4">
-                <h4>Our Address</h4>
-                <div class="hline"></div>
-                    <p>
+                <div class="row">
+                    <div class="col-lg-6">
+                      <address>
+                        <strong>{{ site.title }}</strong><br>
                         {% for line in site.address.first.lines %} {{ line }}<br>{% endfor %}
-                    </p>
-                    <p>
-                        Email: <a target="_blank" href="mailto:{{ site.email }}"> {{ site.email }}</a><br/>
                         Tel: <a href="tel:{{ site.tel }}">{{ site.tel }}</a>
-                    </p>
-            </div>
+                      </address>
+                    </div><!--/col-lg-8 -->
+                    <div class="col-lg-6">
+                      <p>
+                        Main: <a target="_blank" href="mailto:{{ site.email }}"> {{ site.email }}</a><br/>
+                        Accounts: <a target="_blank" href="mailto:{{ site.accounts }}"> {{ site.accounts }}</a><br/>
+                        Help: <a target="_blank" href="mailto:{{ site.support }}"> {{ site.support }}</a><br/>
+
+                      </p>
+                    </div><!--/col-lg-8 -->
+                </div><!--/row -->
+            </div><!--/col-lg-8 -->
         </div><!--/row -->
     </div><!--/container -->
