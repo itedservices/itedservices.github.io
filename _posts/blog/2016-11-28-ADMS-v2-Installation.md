@@ -6,8 +6,8 @@ date: 2016-11-28 12:00:00 +12:00
 author: Richard van Dijk
 tags:
 - News
-img: post09.jpg
-thumb: thumb09.jpg
+img: post10.jpg
+thumb: thumb10.jpg
 categories:
 - blog
 - news
