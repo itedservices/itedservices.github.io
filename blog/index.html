@@ -1,12 +1,8 @@
 ---
 layout: blog
 title: Blog
-paginate: 
+paginate:
   category: blog
-  permalink:    /page/:num/
-  limit: false
-  per_page: 5
-
 ---
 
     <div class="container mtb">
@@ -23,10 +19,10 @@ paginate:
                     <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
                     <p><csmall>{{ post.date | date: "%b %-d, %Y" }} | By: {{ post.author }}</csmall></p>
                     {{ post.excerpt }}
-                    
-                    {% capture content_words %} {{ post.content | number_of_words }} {% endcapture %} 
+
+                    {% capture content_words %} {{ post.content | number_of_words }} {% endcapture %}
                     {% capture excerpt_words %} {{ post.excerpt | number_of_words }} {% endcapture %}
-                    
+
                     {% if excerpt_words != content_words %}
                     <p><a href="{{ post.url }}#read-more">Read More</a></p>
                     {% endif %}
@@ -50,5 +46,3 @@ paginate:
 
         </div><!--/row -->
     </div><!--/container -->
-
-

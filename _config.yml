@@ -3,7 +3,6 @@
 future: true
 
 gems:
-  - octopress-paginate
   - jekyll-sitemap
   - jekyll-assets
   - bootstrap-sass
@@ -20,8 +19,8 @@ analytics: UA-25819796-2 #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
 url: "http://www.ited.co.nz"
 
-# paginate: 5
-# paginate_path: /blog/:num/
+paginate: 5
+paginate_path: /blog/:num/
 
 # Build settings
 timezone: 'Pacific/Auckland'
@@ -105,27 +104,34 @@ clients:
   - name: Mount Maunganui College
     img: mmc-bw.png
     link: http://www.mmc.school.nz/
-  - name: Omokoroa Point School
-    img: omok-bw.png
-    link: http://www.omokoroapoint.school.nz/
+
+  - name: Tauranga Boys' College
+    img: tbc-bw.png
+    link: https://www.tbc.school.nz/
+
+  - name: Tauranga Girls' College
+    img: tgc-bw.png
+    link: https://www.tgc.school.nz/
+
   - name: Papamoa College
     img: papamoa-bw.png
     link: http://www.papamoacollege.school.nz
+
   - name: Katikati College
     img: kkc-bw.png
     link: http://www.kkc.school.nz
+
   - name: Epsom Girl's Grammar School
     img: eggs-bw.png
     link: http://elearn.eggs.school.nz/
+
   - name: Palmerston North Boy's High School
     img: pnbhs-bw.png
     link: http://stratus.pnbhs.school.nz/
-  - name: Papanui High School
-    img: papanui-bw.png
-    link: http://papnet.papanui.school.nz/
-  - name: Westlake Boy's High School
-    img: wbhs-bw.png
-    link: http://ilearn.westlake.school.nz/
+
+  - name: Omokoroa Point School
+    img: omok-bw.png
+    link: http://www.omokoroapoint.school.nz/
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "ITed Services is a education IT solution company based in Tauranga. We are a team of talented and passionate people who are committed to helping your school get the best use out of ICT."

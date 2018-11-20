@@ -9,7 +9,7 @@ categories:
 - service
 
 sid: 1
-icon: fa-server
+icon: fas fa-server
 modal: "Tell us how you plan to use ICT in the classroom and we will help to make it happen. Not sure? We can help with that too."
 
 img: portfolio_10.jpg

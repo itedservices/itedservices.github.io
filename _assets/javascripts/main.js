@@ -69,7 +69,7 @@ function contactForm() {
             beforeSend: function() {
                 console.log("sending msg");
                 // console.log(msgdata);
-                $('#submit').button('loading').prepend('<i class="fa fa-spinner fa-spin"></i> ');
+                $('#submit').button('loading').prepend('<i class="fas fa-spinner fa-spin"></i> ');
             }
         }).success(function(response) {
             console.log("msg sent");
