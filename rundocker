@@ -5,7 +5,6 @@ docker run \
   --rm \
   -it \
   -v "$PWD":/usr/src/app \
-  -w /usr/src/app \
   -p 8080:4000 \
-  ruby:2.5 \
-  bash -c "apt-get update && apt-get install -y nodejs && bundle install && bundle exec jekyll serve"
+  web \
+  $@
