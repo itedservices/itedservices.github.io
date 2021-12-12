@@ -1,22 +1,24 @@
-
-    <footer id="footerwrap">
-        <div class="container">
-            <div class="row ">
-                <div class="col-sm-3 col-md-4 col-lg-4 text-left clearfix hidden-xs">
-                    <p>
-                        <a target="_blank" href="mailto:{{ site.email }}">{{ site.email }}</a>
-                    </p>
-                </div>
-                <div class="col-sm-3 col-md-4 col-lg-4 text-center clearfix">
-                    <p>{% for network in site.social %}
-                        <a target="_blank" href="{{ network.url }}" class="btn-social btn-outline"><i class="fab fa-{{ network.title }}"></i></a>
-                    {% endfor %}</p>
-                </div>
-                <div class="col-sm-3 col-md-4 col-lg-4 text-right clearfix hidden-xs">
-                    <p>
-                        {% for line in site.address.first.lines %} {{ line }} {% endfor %}
-                    </p>
-                </div>
-            </div><!--/row -->
-        </div><!--/container -->
-    </footer><!--/footerwrap -->
+<footer id="footerwrap">
+    <div class="container">
+        <div class="row ">
+            <div class="col-sm-3 col-md-4 col-lg-4 text-left clearfix hidden-xs">
+                <p>
+                    <a target="_blank" href="mailto:{{ site.email }}">{{ site.email }}</a>
+                </p>
+            </div>
+            <div class="col-sm-3 col-md-4 col-lg-4 text-center clearfix">
+                <p>
+                    <a href="{{ '/privacy/' | prepend: site.baseurl }}">Privacy Statement</a>
+                </p>
+            </div>
+            <div class="col-sm-3 col-md-4 col-lg-4 text-right clearfix hidden-xs">
+                <p>
+                    {% for line in site.address.first.lines %} {{ line }} {% endfor %}
+                </p>
+            </div>
+        </div>
+        <!--/row -->
+    </div>
+    <!--/container -->
+</footer>
+<!--/footerwrap -->
