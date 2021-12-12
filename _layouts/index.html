@@ -7,26 +7,24 @@ title: Home
 {% include modals.html %}
 {% include sections/clients.html %}
 
-    <div class="container mtb">
-        <div class="row">
-            <div class="hidden-xs col-sm-4 col-md-4 col-lg-4">
-                <h4>About Us.</h4>
-                {{ site.about | markdownify }}
-                <p><a role="button" href="{{ "/about/" | prepend: site.baseurl }}" >Read more</a></p>
-            </div>
+<div class="container mtb">
+    <div class="row">
+        <div class="hidden-xs col-sm-6 col-md-6 col-lg-6">
+            <h4>About Us.</h4>
+            {{ site.about | markdownify }}
+            <p><a role="button" href="{{ " /about/" | prepend: site.baseurl }}">Read more</a></p>
+        </div>
 
-            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
-                <h4>From the Help Center</h4>
-                <div id="helpcenter" class="hline"></div>
-            </div>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <h4>From the Help Center</h4>
+            <div id="helpcenter" class="hline"></div>
+        </div>
 
-            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
-                <h4>Latest Posts</h4>
-                <div class="hline"></div>
-                {% for post in site.categories['blog'] limit:5 %}
-                    <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
-                {% endfor %}
-            </div>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
 
-        </div><!--/row -->
-    </div><!--/container -->
+        </div>
+
+    </div>
+    <!--/row -->
+</div>
+<!--/container -->
