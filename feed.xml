@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>ITed Services</title>
+        <description>ITed is a team of talented and passionate people who are committed to helping your school get the best use out of ICT.
+
+We believe in building relationships with our schools because when we have an understanding of a vision, we can help to clarify and identify the challenges and then implement the steps that make it into something tangible.
+</description>      
+        <link>http://www.ited.co.nz</link>
+        <atom:link href="http://www.ited.co.nz/feed.xml" rel="self" type="application/rss+xml" />
+        
+            <item>
+                <title>KAMAR Conference 2017</title>
+                        
+                
+                    <description>This week brings us to the KAMAR conference where we will be presenting ADMS. This service syncs user data and groups from KAMAR to Active Directory. Wi...</description>
+                
+                <pubDate>Mon, 15 May 2017 12:00:00 +1200</pubDate>
+                <link>http://www.ited.co.nz/blog/news/2017/05/15/KAMAR-Conference-2017/</link>
+                <guid isPermaLink="true">http://www.ited.co.nz/blog/news/2017/05/15/KAMAR-Conference-2017/</guid>
+            </item>
+        
+            <item>
+                <title>NEW Moodle Theme</title>
+                        
+                
+                    <description>With changes in user interfaces Moodle themes continue to be improved upon. With Moodle 3.2 will come Bootstrap 4 support and a new theme called Boost. ...</description>
+                
+                <pubDate>Fri, 02 Dec 2016 12:00:00 +1200</pubDate>
+                <link>http://www.ited.co.nz/blog/news/2016/12/02/NEW-Moodle_Theme/</link>
+                <guid isPermaLink="true">http://www.ited.co.nz/blog/news/2016/12/02/NEW-Moodle_Theme/</guid>
+            </item>
+        
+            <item>
+                <title>ADMS v2 Installation</title>
+                        
+                
+                    <description>After a lengthy development period ADMS v2.0 is now ready for download.
+
+We are committed to this service being flexible to its users needs and to its o...</description>
+                
+                <pubDate>Mon, 28 Nov 2016 12:00:00 +1200</pubDate>
+                <link>http://www.ited.co.nz/blog/news/2016/11/28/ADMS-v2-Installation/</link>
+                <guid isPermaLink="true">http://www.ited.co.nz/blog/news/2016/11/28/ADMS-v2-Installation/</guid>
+            </item>
+        
+            <item>
+                <title>Word import</title>
+                        
+                
+                    <description>Fast and easy is the way many of the new atto editor plugins work. Word Import allows you to drop in entire Microsoft Word 2010 (.docx) files, including...</description>
+                
+                <pubDate>Thu, 21 Apr 2016 12:00:00 +1200</pubDate>
+                <link>http://www.ited.co.nz/blog/news/2016/04/21/Word-import/</link>
+                <guid isPermaLink="true">http://www.ited.co.nz/blog/news/2016/04/21/Word-import/</guid>
+            </item>
+        
+            <item>
+                <title>Moodle Course resources</title>
+                        
+                
+                    <description>Need some inspiration? Quite often when it comes to making courses in Moodle we just don’t know where to start. Thankfully there are a lot of educators ...</description>
+                
+                <pubDate>Tue, 18 Aug 2015 12:00:00 +1200</pubDate>
+                <link>http://www.ited.co.nz/blog/news/2015/08/18/moodle-resources/</link>
+                <guid isPermaLink="true">http://www.ited.co.nz/blog/news/2015/08/18/moodle-resources/</guid>
+            </item>
+        
+            <item>
+                <title>A new look for Moodle?</title>
+                        
+                
+                    <description>Time for a change? Over the past few years the pace of change of Moodle has increased exponentially in version numbers. While we haven’t seen the big st...</description>
+                
+                <pubDate>Thu, 16 Jul 2015 12:00:00 +1200</pubDate>
+                <link>http://www.ited.co.nz/blog/news/2015/07/16/A-new-look-for-your-Moodle/</link>
+                <guid isPermaLink="true">http://www.ited.co.nz/blog/news/2015/07/16/A-new-look-for-your-Moodle/</guid>
+            </item>
+        
+            <item>
+                <title>Students as editors</title>
+                        
+                
+                    <description>In a change from the norm, Mount Mauganui College have given editing rights to their head students for the Moodle front page news. This has been a great...</description>
+                
+                <pubDate>Mon, 06 Jul 2015 12:00:00 +1200</pubDate>
+                <link>http://www.ited.co.nz/blog/news/2015/07/06/students-as-editors/</link>
+                <guid isPermaLink="true">http://www.ited.co.nz/blog/news/2015/07/06/students-as-editors/</guid>
+            </item>
+        
+            <item>
+                <title>Office Mix</title>
+                        
+                
+                    <description>Office Mix, now has an integration with Moodle that allows you to put your interactive Powerpoints directly into Moodle. This tool is designed to work w...</description>
+                
+                <pubDate>Mon, 06 Jul 2015 11:00:00 +1200</pubDate>
+                <link>http://www.ited.co.nz/blog/news/2015/07/06/office-mix/</link>
+                <guid isPermaLink="true">http://www.ited.co.nz/blog/news/2015/07/06/office-mix/</guid>
+            </item>
+        
+            <item>
+                <title>New Website</title>
+                        
+                
+                    <description>Welcome, after quite some time we have finally decided upon a tool to build our website and blog. Here we will be able to share news and tips for the us...</description>
+                
+                <pubDate>Wed, 20 May 2015 14:54:46 +1200</pubDate>
+                <link>http://www.ited.co.nz/blog/news/2015/05/20/new-website/</link>
+                <guid isPermaLink="true">http://www.ited.co.nz/blog/news/2015/05/20/new-website/</guid>
+            </item>
+        
+            <item>
+                <title>A whole lot of thin clients</title>
+                        
+                
+                    <description>
+
+So we have thirty thin clients to get rid of but no one to give too. They range in age and specs but as perhaps an indication of what schools need the...</description>
+                
+                <pubDate>Wed, 25 Feb 2015 14:44:00 -0800</pubDate>
+                <link>http://www.ited.co.nz/blog/news/ict/2015/02/25/a-whole-lot-of-thin-clients/</link>
+                <guid isPermaLink="true">http://www.ited.co.nz/blog/news/ict/2015/02/25/a-whole-lot-of-thin-clients/</guid>
+            </item>
+        
+    </channel>
+</rss>
