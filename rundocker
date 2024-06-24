@@ -1,0 +1,10 @@
+#! /bin/bash
+
+
+docker run \
+  --rm \
+  -it \
+  -v "$PWD":/usr/src/app \
+  -p 8080:4000 \
+  web \
+  $@
