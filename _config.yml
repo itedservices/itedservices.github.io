@@ -58,8 +58,8 @@ social:
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines:
-    - 82C Snodgrass Road
-    - RD 4
+    - 82C Snodgrass Road,
+    - RD 4,
     - Tauranga 3174
 email: hello@ited.co.nz
 support: help@ited.co.nz
